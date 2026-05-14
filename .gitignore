@@ -1,0 +1,12 @@
+.rebellion-backups/
+.agent-backups/
+*.log
+*.tmp
+*.db
+*.sqlite
+*.sqlite3
+*.rar
+*.zip
+__pycache__/
+.DS_Store
+Thumbs.db
