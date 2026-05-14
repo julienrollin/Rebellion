@@ -15,6 +15,7 @@ overlay/app/ui/bitmaps/color_picker_hue_strip.png
 overlay/app/ui/bitmaps/color_picker_picker.png
 overlay/app/ui/bitmaps/color_picker_temperature_strip.png
 overlay/app/ui/bitmaps/color_picker_wheel.png
+overlay/app/library/attributes/easy_triplanar.gnode
 overlay/app/guerilla_render-2.5.0a24/ui/ga_autosave.lua
 overlay/app/guerilla_render-2.5.0a24/ui/ui_keys.lua
 overlay/app/guerilla_render-2.5.0a24/ui/ga_tool.lua

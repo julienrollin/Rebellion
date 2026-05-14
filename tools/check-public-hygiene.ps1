@@ -46,7 +46,7 @@ foreach ($file in $files) {
   }
 
   $ext = [System.IO.Path]::GetExtension($file.Name).ToLowerInvariant()
-  if ($ext -in @(".lua", ".ps1", ".md", ".txt", ".json")) {
+  if ($ext -in @(".lua", ".ps1", ".md", ".txt", ".json", ".gnode")) {
     $text = Get-Content -LiteralPath $file.FullName -Raw
     foreach ($pattern in $forbiddenPatterns) {
       if ($text.Contains($pattern)) {
