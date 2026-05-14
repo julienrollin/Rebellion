@@ -10,6 +10,18 @@ Current public payload:
 
 ## Install
 
+For CreativeSeeds artists, double-click:
+
+```text
+Install_Rebellion_CreativeSeeds.bat
+```
+
+It installs to:
+
+```text
+C:\CreativeSeeds\Applications\guerilla2\app
+```
+
 Run PowerShell from the repo root:
 
 ```powershell
@@ -21,6 +33,7 @@ Run PowerShell from the repo root:
 Dry run:
 
 ```powershell
+.\Install_Rebellion_CreativeSeeds.bat /dryrun
 .\tools\install.ps1 -GuerillaRoot "<path-to-guerilla-install>" -WhatIf
 ```
 

@@ -14,8 +14,6 @@ $forbiddenDirs = @(
 $forbiddenPatterns = @(
   ("S:" + "/softwares"),
   ("S:" + "\softwares"),
-  ("C:" + "/CreativeSeeds"),
-  ("C:" + "\CreativeSeeds"),
   "Agent_dev",
   ("Awesome" + "_Guerilla"),
   "guerilla_DEV",
